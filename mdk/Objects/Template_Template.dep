@@ -1,0 +1,930 @@
+Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
+F (.\App\main.c)(0x5A7A98FD)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\pin_mux.h)(0x5A6AE07B)
+I (App\LCDconf.h)(0x5A6AC297)
+I (App\touch_I2C.h)(0x5A6AC540)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_i2c.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_ConfDefaults.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIConf.h)(0x5A501DDA)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Type.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\Global.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Version.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5A4301F2)
+I (App\touch_task.h)(0x5A6AD7C0)
+I (App\File_task.h)(0x5A6BD1D7)
+I (.\RTE\Graphics\GUI_Design.h)(0x5A73B86D)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\DIALOG.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\WM.h)(0x5A53208E)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\WM_GUI.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\BUTTON.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\DIALOG_Intern.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\WIDGET.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\WM_Intern.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Private.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD_Protected.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Debug.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\SCROLLBAR.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\CALENDAR.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\CHECKBOX.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\CHOOSECOLOR.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\CHOOSEFILE.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\DROPDOWN.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LISTBOX.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\EDIT.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\FRAMEWIN.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GRAPH.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\HEADER.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\ICONVIEW.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\IMAGE.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LISTVIEW.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LISTWHEEL.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\MENU.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\MULTIEDIT.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\MULTIPAGE.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\PROGBAR.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\RADIO.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\SLIDER.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\SPINBOX.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\SWIPELIST.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\TEXT.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\TREEVIEW.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\KNOB.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdio.h)(0x5A38D8E0)
+F (.\App\touch_task.c)(0x5A740151)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\touch_task.o --omf_browse .\objects\touch_task.crf --depend .\objects\touch_task.d)
+I (App\touch_I2C.h)(0x5A6AC540)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_i2c.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (App\fsl_ft5406.h)(0x5A3B171D)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5A4301F2)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_ConfDefaults.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIConf.h)(0x5A501DDA)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Type.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\Global.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Version.h)(0x59ED6214)
+F (.\App\File_task.c)(0x5A7405E6)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\file_task.o --omf_browse .\objects\file_task.crf --depend .\objects\file_task.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_iocon.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (.\App\sdcard\fsl_sd.h)(0x5A655A60)
+I (.\App\sdcard\fsl_sdmmc_common.h)(0x5A1E071A)
+I (.\App\sdcard\fsl_sdmmc_host.h)(0x5A629814)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (.\App\sdcard\fsl_sdmmc_spec.h)(0x5A72DADB)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\App\Fatfs\ff.h)(0x59E1B300)
+I (.\App\Fatfs\integer.h)(0x59E1B300)
+I (.\App\Fatfs\ffconf.h)(0x5A699688)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5A4301F2)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+F (.\App\LCDconf.c)(0x5A6AC484)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\lcdconf.o --omf_browse .\objects\lcdconf.crf --depend .\objects\lcdconf.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_lcdc.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_emc.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sctimer.h)(0x59F71736)
+F (.\App\touch_I2C.c)(0x5A6AC789)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\touch_i2c.o --omf_browse .\objects\touch_i2c.crf --depend .\objects\touch_i2c.d)
+I (App\touch_I2C.h)(0x5A6AC540)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_i2c.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (.\RTE\Graphics\WindowDLG.c)(0x5A73BA5A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\windowdlg.o --omf_browse .\objects\windowdlg.crf --depend .\objects\windowdlg.d)
+I (.\App\Fatfs\ff.h)(0x59E1B300)
+I (.\App\Fatfs\integer.h)(0x59E1B300)
+I (.\App\Fatfs\ffconf.h)(0x5A699688)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\DIALOG.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\WM.h)(0x5A53208E)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_ConfDefaults.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIConf.h)(0x5A501DDA)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Type.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\Global.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\WM_GUI.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Version.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\BUTTON.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\DIALOG_Intern.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\WIDGET.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\WM_Intern.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Private.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD_Protected.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Debug.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\SCROLLBAR.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\CALENDAR.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\CHECKBOX.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\CHOOSECOLOR.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\CHOOSEFILE.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\DROPDOWN.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LISTBOX.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\EDIT.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\FRAMEWIN.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GRAPH.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\HEADER.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\ICONVIEW.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\IMAGE.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LISTVIEW.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LISTWHEEL.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\MENU.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\MULTIEDIT.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\MULTIPAGE.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\PROGBAR.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\RADIO.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\SLIDER.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\SPINBOX.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\SWIPELIST.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\TEXT.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\TREEVIEW.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\KNOB.h)(0x59ED6214)
+F (.\App\fsl_ft5406.c)(0x5A73C443)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_ft5406.o --omf_browse .\objects\fsl_ft5406.crf --depend .\objects\fsl_ft5406.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\fsl_debug_console.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_i2c.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (App\fsl_ft5406.h)(0x5A3B171D)
+F (.\App\fsl_ft5406.h)(0x5A3B171D)()
+F (.\App\sdcard\fsl_mmc.c)(0x5A1E071A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_mmc.o --omf_browse .\objects\fsl_mmc.crf --depend .\objects\fsl_mmc.d)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (App\sdcard\fsl_mmc.h)(0x5A1E071A)
+I (App\sdcard\fsl_sdmmc_common.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_host.h)(0x5A629814)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_spec.h)(0x5A72DADB)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+F (.\App\sdcard\fsl_sd.c)(0x5A72DB13)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sd.o --omf_browse .\objects\fsl_sd.crf --depend .\objects\fsl_sd.d)
+I (App\sdcard\fsl_sd.h)(0x5A655A60)
+I (App\sdcard\fsl_sdmmc_common.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_host.h)(0x5A629814)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_spec.h)(0x5A72DADB)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+F (.\App\sdcard\fsl_sdio.c)(0x5A1E071A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sdio.o --omf_browse .\objects\fsl_sdio.crf --depend .\objects\fsl_sdio.d)
+I (App\sdcard\fsl_sdio.h)(0x5A1E071A)
+I (App\sdcard\fsl_sdmmc_common.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_host.h)(0x5A629814)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_spec.h)(0x5A72DADB)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+F (.\App\sdcard\fsl_sdmmc_common.c)(0x5A62ED6D)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sdmmc_common.o --omf_browse .\objects\fsl_sdmmc_common.crf --depend .\objects\fsl_sdmmc_common.d)
+I (App\sdcard\fsl_sdmmc_common.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_host.h)(0x5A629814)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_spec.h)(0x5A72DADB)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+F (.\App\sdcard\fsl_sdmmc_event.c)(0x5A73D33C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sdmmc_event.o --omf_browse .\objects\fsl_sdmmc_event.crf --depend .\objects\fsl_sdmmc_event.d)
+I (App\sdcard\fsl_sdmmc_event.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5A4301F2)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+F (.\App\sdcard\fsl_sdmmc_host.c)(0x5A655E0C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sdmmc_host.o --omf_browse .\objects\fsl_sdmmc_host.crf --depend .\objects\fsl_sdmmc_host.d)
+I (App\sdcard\fsl_sdmmc_host.h)(0x5A629814)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_event.h)(0x5A1E071A)
+F (.\App\sdcard\fsl_sdspi.c)(0x5A1E071A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sdspi.o --omf_browse .\objects\fsl_sdspi.crf --depend .\objects\fsl_sdspi.d)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (App\sdcard\fsl_sdspi.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (App\sdcard\fsl_sdmmc_spec.h)(0x5A72DADB)
+F (.\App\Fatfs\diskio.c)(0x5A67F3A4)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (App\Fatfs\diskio.h)(0x59E1B300)
+I (App\Fatfs\integer.h)(0x59E1B300)
+I (App\Fatfs\fsl_sd_disk.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\App\sdcard\fsl_sd.h)(0x5A655A60)
+I (.\App\sdcard\fsl_sdmmc_common.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (.\App\sdcard\fsl_sdmmc_host.h)(0x5A629814)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (.\App\sdcard\fsl_sdmmc_spec.h)(0x5A72DADB)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+F (.\App\Fatfs\ff.c)(0x5A717C22)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (App\Fatfs\ff.h)(0x59E1B300)
+I (App\Fatfs\integer.h)(0x59E1B300)
+I (App\Fatfs\ffconf.h)(0x5A699688)
+I (App\Fatfs\diskio.h)(0x59E1B300)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (.\App\Fatfs\ffsystem.c)(0x59E1B300)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\ffsystem.o --omf_browse .\objects\ffsystem.crf --depend .\objects\ffsystem.d)
+I (App\Fatfs\ff.h)(0x59E1B300)
+I (App\Fatfs\integer.h)(0x59E1B300)
+I (App\Fatfs\ffconf.h)(0x5A699688)
+F (.\App\Fatfs\ffunicode.c)(0x59E1B300)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\ffunicode.o --omf_browse .\objects\ffunicode.crf --depend .\objects\ffunicode.d)
+I (App\Fatfs\ff.h)(0x59E1B300)
+I (App\Fatfs\integer.h)(0x59E1B300)
+I (App\Fatfs\ffconf.h)(0x5A699688)
+F (.\App\Fatfs\fsl_sd_disk.c)(0x5A73DBA2)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sd_disk.o --omf_browse .\objects\fsl_sd_disk.crf --depend .\objects\fsl_sd_disk.d)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdio.h)(0x5A38D8E0)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (App\Fatfs\fsl_sd_disk.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (App\Fatfs\diskio.h)(0x59E1B300)
+I (App\Fatfs\integer.h)(0x59E1B300)
+I (.\App\sdcard\fsl_sd.h)(0x5A655A60)
+I (.\App\sdcard\fsl_sdmmc_common.h)(0x5A1E071A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (.\App\sdcard\fsl_sdmmc_host.h)(0x5A629814)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (.\RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (.\App\sdcard\fsl_sdmmc_spec.h)(0x5A72DADB)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+F (.\App\readme.txt)(0x5A74057B)()
+F (RTE\Board_Support\LPC54608J512ET180_M4\board.c)(0x59F7178A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+I (RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\fsl_debug_console.h)(0x59F71736)
+F (RTE\Board_Support\LPC54608J512ET180_M4\board.h)(0x59F7178A)()
+F (RTE\Board_Support\LPC54608J512ET180_M4\clock_config.c)(0x5A6C45FE)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\clock_config.o --omf_browse .\objects\clock_config.crf --depend .\objects\clock_config.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_power.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)
+F (RTE\Board_Support\LPC54608J512ET180_M4\clock_config.h)(0x5A38A9BD)()
+F (RTE\Board_Support\LPC54608J512ET180_M4\peripherals.c)(0x59F7178A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\peripherals.o --omf_browse .\objects\peripherals.crf --depend .\objects\peripherals.d)
+I (RTE\Board_Support\LPC54608J512ET180_M4\peripherals.h)(0x59F7178A)
+F (RTE\Board_Support\LPC54608J512ET180_M4\peripherals.h)(0x59F7178A)()
+F (RTE\Board_Support\LPC54608J512ET180_M4\pin_mux.c)(0x5A6AE07B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\pin_mux.o --omf_browse .\objects\pin_mux.crf --depend .\objects\pin_mux.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_iocon.h)(0x59F71736)
+I (RTE\Board_Support\LPC54608J512ET180_M4\pin_mux.h)(0x5A6AE07B)
+F (RTE\Board_Support\LPC54608J512ET180_M4\pin_mux.h)(0x5A6AE07B)()
+F (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib)(0x58AA8AF8)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x5A7405E6)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5A4301F2)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5983FFB6)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\arm\keil_lib_power.lib)(0x59F71736)()
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_clock.o --omf_browse .\objects\fsl_clock.crf --depend .\objects\fsl_clock.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_power.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_common.o --omf_browse .\objects\fsl_common.crf --depend .\objects\fsl_common.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_emc.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_emc.o --omf_browse .\objects\fsl_emc.crf --depend .\objects\fsl_emc.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_emc.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_flexcomm.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_flexcomm.o --omf_browse .\objects\fsl_flexcomm.crf --depend .\objects\fsl_flexcomm.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_flexcomm.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_gpio.o --omf_browse .\objects\fsl_gpio.crf --depend .\objects\fsl_gpio.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_gpio.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_i2c.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_i2c.o --omf_browse .\objects\fsl_i2c.crf --depend .\objects\fsl_i2c.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_i2c.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_flexcomm.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_inputmux.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_inputmux.o --omf_browse .\objects\fsl_inputmux.crf --depend .\objects\fsl_inputmux.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_inputmux.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_inputmux_connections.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_lcdc.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_lcdc.o --omf_browse .\objects\fsl_lcdc.crf --depend .\objects\fsl_lcdc.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_lcdc.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_power.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_power.o --omf_browse .\objects\fsl_power.crf --depend .\objects\fsl_power.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_power.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_reset.o --omf_browse .\objects\fsl_reset.crf --depend .\objects\fsl_reset.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sctimer.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sctimer.o --omf_browse .\objects\fsl_sctimer.crf --depend .\objects\fsl_sctimer.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sctimer.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.c)(0x5A6C2519)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_sdif.o --omf_browse .\objects\fsl_sdif.crf --depend .\objects\fsl_sdif.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_sdif.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_usart.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_usart.o --omf_browse .\objects\fsl_usart.crf --depend .\objects\fsl_usart.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_usart.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_flexcomm.h)(0x59F71736)
+F (RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)()
+F (RTE\Device\LPC54608J512ET180_M4\LPC54608J512_flash.scf)(0x59F71736)()
+F (RTE\Device\LPC54608J512ET180_M4\LPC54608J512_ram.scf)(0x59F71736)()
+F (RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)()
+F (RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)()
+F (RTE\Device\LPC54608J512ET180_M4\startup_LPC54608.s)(0x59F71736)(--cpu Cortex-M4.fp --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "LPC54608 SETA 1"--list .\listings\startup_lpc54608.lst --xref -o .\objects\startup_lpc54608.o --depend .\objects\startup_lpc54608.d)
+F (RTE\Device\LPC54608J512ET180_M4\system_LPC54608.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\system_lpc54608.o --omf_browse .\objects\system_lpc54608.crf --depend .\objects\system_lpc54608.d)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+F (RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)()
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\fsl_debug_console.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_debug_console.o --omf_browse .\objects\fsl_debug_console.crf --depend .\objects\fsl_debug_console.d)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdio.h)(0x5A38D8E0)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\fsl_debug_console.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\fsl_debug_console_conf.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log\fsl_log.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str\fsl_str.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io\fsl_io.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_io.o --omf_browse .\objects\fsl_io.crf --depend .\objects\fsl_io.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io\fsl_io.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\fsl_debug_console_conf.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_usart.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log\fsl_log.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_log.o --omf_browse .\objects\fsl_log.crf --depend .\objects\fsl_log.d)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log\fsl_log.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\fsl_debug_console_conf.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io\fsl_io.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str\fsl_str.c)(0x59F71736)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\fsl_str.o --omf_browse .\objects\fsl_str.crf --depend .\objects\fsl_str.d)
+I (E:\my_program\keil5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str\fsl_str.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_common.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\ARMCC\include\assert.h)(0x5996B2DF)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\Device\LPC54608J512ET180_M4\fsl_device_registers.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\mpu_armv7.h)(0x5A0D5BFA)
+I (.\RTE\Device\LPC54608J512ET180_M4\system_LPC54608.h)(0x59F71736)
+I (.\RTE\Device\LPC54608J512ET180_M4\LPC54608_features.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_clock.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers\fsl_reset.h)(0x59F71736)
+I (E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\fsl_debug_console_conf.h)(0x59F71736)
+F (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Lib\ARM\GUI_CM4F_L.lib)(0x59ED6214)()
+F (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Sample\GUI_X\GUI_X_RTE.c)(0x5A4C761B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\gui_x_rte.o --omf_browse .\objects\gui_x_rte.crf --depend .\objects\gui_x_rte.d)
+I (.\RTE\_Template\RTE_Components.h)(0x5A6AC8A8)
+I (E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5A4301F2)
+I (E:\my_program\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_ConfDefaults.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIConf.h)(0x5A501DDA)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Type.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\Global.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Version.h)(0x59ED6214)
+F (RTE\Graphics\GUIBuilder.txt)(0x53BCC404)()
+F (RTE\Graphics\GUIConf.c)(0x5A7269A4)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\guiconf.o --omf_browse .\objects\guiconf.crf --depend .\objects\guiconf.d)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_ConfDefaults.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIConf.h)(0x5A501DDA)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Type.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\Global.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Version.h)(0x59ED6214)
+F (RTE\Graphics\LCDConf.c)(0x5A6AD305)(--c99 -c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g --apcs=interwork --split_sections -I .\App -I .\App\Fatfs -I .\App\sdcard -I .\RTE\Graphics  --diag_suppress=66-I.\RTE\Board_Support\LPC54608J512ET180_M4-I.\RTE\Device\LPC54608J512ET180_M4-I.\RTE\_Template-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IE:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-IE:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log-IE:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str-IE:\my_program\keil5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC54608 -DDEBUG -DCPU_LPC54608 -DCPU_LPC54608J512ET180="1" -DUSE_RTOS="1" -DDEV_MMC="1" -DCORE_M4-o .\objects\lcdconf_1.o --omf_browse .\objects\lcdconf_1.crf --depend .\objects\lcdconf_1.d)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_ConfDefaults.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIConf.h)(0x5A501DDA)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Type.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\Global.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Version.h)(0x59ED6214)
+I (E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIDRV_Lin.h)(0x59ED6214)

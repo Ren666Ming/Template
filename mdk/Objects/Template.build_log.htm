@@ -1,0 +1,262 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11111 AutoBVT, Microsoft, LIC=JL29U-SYZMT-63JMB-2LCRY-WEZBZ-8RHWX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  E:\my_program\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+F:\renming\mission\ÐÂ²ÊÆÁÁ¢Ïî\keil5\Template\mdk\Template.uvprojx
+Project File Date:  02/02/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'E:\my_program\keil5\ARM\ARMCC\Bin'
+Rebuild target 'Template'
+compiling File_task.c...
+compiling main.c...
+compiling LCDconf.c...
+compiling touch_task.c...
+compiling WindowDLG.c...
+compiling fsl_ft5406.c...
+compiling fsl_mmc.c...
+compiling touch_I2C.c...
+compiling fsl_sd.c...
+compiling fsl_sdio.c...
+compiling fsl_sdmmc_event.c...
+compiling fsl_sdmmc_common.c...
+compiling ff.c...
+compiling fsl_sdmmc_host.c...
+compiling ffsystem.c...
+compiling diskio.c...
+compiling fsl_sdspi.c...
+compiling ffunicode.c...
+compiling peripherals.c...
+compiling board.c...
+compiling fsl_sd_disk.c...
+compiling clock_config.c...
+compiling RTX_Conf_CM.c...
+compiling pin_mux.c...
+compiling fsl_clock.c...
+compiling fsl_common.c...
+compiling fsl_emc.c...
+compiling fsl_flexcomm.c...
+compiling fsl_gpio.c...
+compiling fsl_i2c.c...
+compiling fsl_inputmux.c...
+compiling fsl_power.c...
+compiling fsl_lcdc.c...
+compiling fsl_reset.c...
+assembling startup_LPC54608.s...
+compiling fsl_sctimer.c...
+compiling fsl_sdif.c...
+compiling fsl_usart.c...
+compiling system_LPC54608.c...
+compiling fsl_debug_console.c...
+compiling fsl_io.c...
+compiling GUI_X_RTE.c...
+compiling fsl_log.c...
+compiling GUIConf.c...
+compiling fsl_str.c...
+compiling LCDConf.c...
+linking...
+Program Size: Code=77764 RO-data=8536 RW-data=1052 ZI-data=9492  
+".\Objects\Template.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.2.0.pack
+                ::CMSIS:RTOS:1.0.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.0.2
+   * Component: Keil RTX Version: 4.81.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.5.0.pack
+                Segger.MDK-Plus::Graphics:CORE:5.42.9
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: CORE Version: 5.42.9
+   * Component: GUI Builder Version: 5.42.9
+   * Component: Interface Template Version: 5.42.9
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.LPC54608_DFP.2.3.0.pack
+                NXP::Device:SDK Drivers:powerlib:2.0.0
+                Device Family Pack for LPC54608
+   * Component: powerlib Version: 2.0.0
+   * Component: clock Version: 2.1.0
+   * Component: common Version: 2.0.0
+   * Component: i2c Version: 2.0.1
+   * Component: emc Version: 2.0.0
+   * Component: usart Version: 2.0.0
+   * Component: gpio Version: 2.1.1
+   * Component: inputmux Version: 2.0.0
+   * Component: inputmux_connections Version: 2.0.0
+   * Component: iocon Version: 2.0.0
+   * Component: lcdc Version: 2.0.0
+   * Component: power Version: 2.0.0
+   * Component: sctimer Version: 2.0.0
+   * Component: sdif Version: 2.0.4
+   * Component: reset Version: 2.0.0
+   * Component: flexcomm Version: 2.0.0
+   * Component: debug_console Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+   * Component: project_template Variant: LPC54608 Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Board_Support\LPC54608J512ET180_M4
+  .\RTE\Device\LPC54608J512ET180_M4
+  .\RTE\_Template
+  E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include
+  E:\my_program\keil5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC
+  E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include
+  E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\drivers
+  E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities
+  E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\io
+  E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\log
+  E:\my_program\keil5\ARM\PACK\NXP\LPC54608_DFP\2.3.0\utilities\str
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.0.2
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.81.1
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib
+
+   * Component: Segger.MDK-Plus::Graphics:CORE:5.42.9
+      Include file:  emWin\Include\GUI.h
+      Source file:   emWin\Sample\Config\GUIConf.c
+      Source file:   emWin\Sample\Template\RTOS1\GUI_TemplateThread.c
+      Source file:   emWin\Sample\Template\RTOS1\GUI_MultiThread.c
+      Source file:   emWin\Sample\Template\RTOS1\GUI_SingleThread.c
+      Source file:   emWin\Sample\GUI_X\GUI_X_RTE.c
+      Library file:  emWin\Lib\ARM\GUI_CM4F_L.lib
+
+   * Component: Segger.MDK-Plus::Graphics:Tools:GUI Builder:5.42.9
+
+   * Component: Segger.MDK-Plus::Graphics:Display:Interface Template:5.42.9
+      Source file:   emWin\Sample\Config\LCDConf.c
+
+   * Component: NXP::Device:SDK Drivers:powerlib:2.0.0
+      Library file:  arm\keil_lib_power.lib
+
+   * Component: NXP::Device:SDK Drivers:clock:2.1.0
+      Source file:   drivers\fsl_clock.c
+      Include file:  drivers\fsl_clock.h
+
+   * Component: NXP::Device:SDK Drivers:common:2.0.0
+      Source file:   drivers\fsl_common.c
+      Include file:  drivers\fsl_common.h
+
+   * Component: NXP::Device:SDK Drivers:i2c:2.0.1
+      Source file:   drivers\fsl_i2c.c
+      Include file:  drivers\fsl_i2c.h
+
+   * Component: NXP::Device:SDK Drivers:emc:2.0.0
+      Source file:   drivers\fsl_emc.c
+      Include file:  drivers\fsl_emc.h
+
+   * Component: NXP::Device:SDK Drivers:usart:2.0.0
+      Source file:   drivers\fsl_usart.c
+      Include file:  drivers\fsl_usart.h
+
+   * Component: NXP::Device:SDK Drivers:gpio:2.1.1
+      Source file:   drivers\fsl_gpio.c
+      Include file:  drivers\fsl_gpio.h
+
+   * Component: NXP::Device:SDK Drivers:inputmux:2.0.0
+      Source file:   drivers\fsl_inputmux.c
+      Include file:  drivers\fsl_inputmux.h
+
+   * Component: NXP::Device:SDK Drivers:inputmux_connections:2.0.0
+      Include file:  drivers\fsl_inputmux_connections.h
+
+   * Component: NXP::Device:SDK Drivers:iocon:2.0.0
+      Include file:  drivers\fsl_iocon.h
+
+   * Component: NXP::Device:SDK Drivers:lcdc:2.0.0
+      Source file:   drivers\fsl_lcdc.c
+      Include file:  drivers\fsl_lcdc.h
+
+   * Component: NXP::Device:SDK Drivers:power:2.0.0
+      Source file:   drivers\fsl_power.c
+      Include file:  drivers\fsl_power.h
+
+   * Component: NXP::Device:SDK Drivers:sctimer:2.0.0
+      Source file:   drivers\fsl_sctimer.c
+      Include file:  drivers\fsl_sctimer.h
+
+   * Component: NXP::Device:SDK Drivers:sdif:2.0.4
+      Source file:   drivers\fsl_sdif.c
+      Include file:  drivers\fsl_sdif.h
+
+   * Component: NXP::Device:SDK Drivers:reset:2.0.0
+      Source file:   drivers\fsl_reset.c
+      Include file:  drivers\fsl_reset.h
+
+   * Component: NXP::Device:SDK Drivers:flexcomm:2.0.0
+      Source file:   drivers\fsl_flexcomm.c
+      Include file:  drivers\fsl_flexcomm.h
+
+   * Component: NXP::Device:SDK Utilities:debug_console:1.0.0
+      Source file:   utilities\io\fsl_io.c
+      Include file:  utilities\io\fsl_io.h
+      Source file:   utilities\log\fsl_log.c
+      Include file:  utilities\log\fsl_log.h
+      Source file:   utilities\str\fsl_str.c
+      Include file:  utilities\str\fsl_str.h
+      Source file:   utilities\fsl_debug_console.c
+      Include file:  utilities\fsl_debug_console.h
+      Include file:  utilities\fsl_debug_console_conf.h
+
+   * Component: NXP::Device:Startup:1.0.0
+      Source file:   arm\startup_LPC54608.s
+      Include file:  fsl_device_registers.h
+      Include file:  LPC54608.h
+      Include file:  LPC54608_features.h
+      Source file:   system_LPC54608.c
+      Include file:  system_LPC54608.h
+
+   * Component: NXP::Board Support:SDK Project Template:project_template:LPC54608:1.0.0
+      Source file:   project_template\board.c
+      Include file:  project_template\board.h
+      Source file:   project_template\clock_config.c
+      Include file:  project_template\clock_config.h
+      Source file:   project_template\peripherals.c
+      Include file:  project_template\peripherals.h
+      Source file:   project_template\pin_mux.c
+      Include file:  project_template\pin_mux.h
+Build Time Elapsed:  00:00:37
+</pre>
+</body>
+</html>

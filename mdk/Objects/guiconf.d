@@ -1,0 +1,9 @@
+.\objects\guiconf.o: RTE\Graphics\GUIConf.c
+.\objects\guiconf.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI.h
+.\objects\guiconf.o: E:\my_program\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guiconf.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_ConfDefaults.h
+.\objects\guiconf.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIConf.h
+.\objects\guiconf.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Type.h
+.\objects\guiconf.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD.h
+.\objects\guiconf.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\Global.h
+.\objects\guiconf.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Version.h

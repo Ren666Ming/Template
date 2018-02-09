@@ -1,0 +1,10 @@
+.\objects\lcdconf_1.o: RTE\Graphics\LCDConf.c
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI.h
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_ConfDefaults.h
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIConf.h
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Type.h
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\LCD.h
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\Global.h
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUI_Version.h
+.\objects\lcdconf_1.o: E:\my_program\keil5\ARM\PACK\Keil\MDK-Middleware\7.5.0\emWin\Include\GUIDRV_Lin.h
